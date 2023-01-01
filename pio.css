@@ -11,6 +11,10 @@
 
 ---- */
 
+.pio-action {
+	display: none !important;
+}
+
 .pio-container {
     bottom: 0;
     z-index: 52;
@@ -146,13 +150,13 @@
 }
 
 #pio {
+	height: 240px;	/* 自行添加 */
     vertical-align: middle
 }
 
 @media screen and (max-width: 768px) {
     #pio {
-	height: 240px;
-        vertical-align: middle
+        width: 8em
     }
 
     .pio-container {
