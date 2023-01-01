@@ -151,8 +151,7 @@
 
 @media screen and (max-width: 768px) {
     #pio {
-        width: 8em
-	    height: 240px;
+	height: 240px;
         vertical-align: middle
     }
 
