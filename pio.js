@@ -64,12 +64,11 @@ var Paul_Pio = function (prop) {
             localStorage.setItem("posterGirl", 0);
         },
         // 是否为移动设备
-        isMobile: function () {
-            var ua = window.navigator.userAgent.toLowerCase();
-            ua = ua.indexOf("mobile") || ua.indexOf("android") || ua.indexOf("ios");
-
-            return window.innerWidth < 500 || ua !== -1;
-        }
+#        isMobile: function () {
+#           var ua = window.navigator.userAgent.toLowerCase();
+#            ua = ua.indexOf("mobile") || ua.indexOf("android") || ua.indexOf("ios");
+#            return window.innerWidth < 500 || ua !== -1;
+#        }
     };
     this.modules = modules;
     this.destroy = modules.destroy;
