@@ -22,7 +22,7 @@ var 引流 = [
 
 const initConfig = {
   mode: "fixed",
-  hidden: true,
+  hidden: false,
   content: {
     link: 引流[Math.floor(Math.random() * 引流.length)],
     welcome: ["Hi!"],
