@@ -18,7 +18,7 @@ var Paul_Pio = function (prop) {
         idol: 0,
         menu: document.querySelector(".pio-container .pio-action"),
         canvas: document.getElementById("pio"),
-        body: document.querySelector(".pio-container"),
+        body: document.querySelector(".pio-container.hidden"),
         root: document.location.protocol + '//' + document.location.hostname + '/'
     };
 
